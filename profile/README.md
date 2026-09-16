@@ -17,8 +17,8 @@ hosts the source code, documentation, and tooling that Consensys maintains. Lear
 
 ## Security
 
-Report vulnerabilities to [Security-Report@Consensys.com](mailto:Security-Report@Consensys.com) or use the
-**Report a vulnerability** button on the affected repository. See the
+Report vulnerabilities to [Security-Report@Consensys.com](mailto:Security-Report@Consensys.com), or use the
+**Report a vulnerability** button where a repository offers it. See the
 [security policy](https://github.com/Consensys-Incorporated/.github/blob/main/SECURITY.md) for details.
 
 ## Looking for MetaMask?

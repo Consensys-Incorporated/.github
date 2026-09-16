@@ -5,11 +5,11 @@ repository publishes its own `SECURITY.md`, that policy takes precedence over th
 
 ## Reporting a vulnerability
 
-Report vulnerabilities privately through either of these channels:
+Report vulnerabilities privately by email to [Security-Report@Consensys.com](mailto:Security-Report@Consensys.com).
 
-- Email [Security-Report@Consensys.com](mailto:Security-Report@Consensys.com).
-- Open the **Security** tab of the affected repository and select **Report a vulnerability**
-  (GitHub private vulnerability reporting).
+Where a repository offers it, you can instead open its **Security** tab and select **Report a vulnerability**
+(GitHub private vulnerability reporting). This option exists only on actively maintained public repositories;
+if you do not see the button, use email.
 
 Do not report security issues through public issues, pull requests, or discussions.
 
