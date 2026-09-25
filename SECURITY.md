@@ -40,6 +40,8 @@ accordance with this policy. Acting in good faith means that you:
 
 - Report vulnerabilities in third-party dependencies to their maintainers.
 - MetaMask products are covered by the [MetaMask organization](https://github.com/MetaMask) and its security policy.
+- Repositories in the [Consensys Incorporated Archive](https://github.com/Consensys-inc-archive) organization are
+  no longer maintained and follow [its security policy](https://github.com/Consensys-inc-archive/.github/blob/main/SECURITY.md).
 - Projects hosted by other organizations, such as LF Decentralized Trust, follow the policy published in
   their own repositories.
 - This policy does not by itself establish a bug bounty program. Where a project runs one, its own security
