@@ -31,7 +31,7 @@ read-only. Truffle, Ganache and related projects are archived in the
 ## Looking for MetaMask?
 
 MetaMask code lives in the [MetaMask organization](https://github.com/MetaMask). The MetaMask team also
-maintains projects in the [Consensys organization](https://github.com/Consensys).
+maintains projects in the former [Consensys GitHub organization](https://github.com/Consensys).
 
 [Teku]: https://github.com/Consensys-Incorporated/teku
 [Web3Signer]: https://github.com/Consensys-Incorporated/web3signer
