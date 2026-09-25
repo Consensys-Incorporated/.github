@@ -21,15 +21,17 @@ Report vulnerabilities to [Security-Report@Consensys.com](mailto:Security-Report
 **Report a vulnerability** button where a repository offers it. See the
 [security policy](https://github.com/Consensys-Incorporated/.github/blob/main/SECURITY.md) for details.
 
-## Looking for MetaMask?
-
-MetaMask code lives in the [MetaMask organization](https://github.com/MetaMask).
-
 ## Looking for an archived project?
 
 Consensys moves repositories it no longer actively maintains to the
 [Consensys Incorporated Archive](https://github.com/Consensys-inc-archive) organization, where they are kept
-read-only.
+read-only. Truffle, Ganache and related projects are archived in the
+[Consensys Archive](https://github.com/Consensys-archive) organization.
+
+## Looking for MetaMask?
+
+MetaMask code lives in the [MetaMask organization](https://github.com/MetaMask). The MetaMask team also
+maintains projects in the [Consensys organization](https://github.com/Consensys).
 
 [Teku]: https://github.com/Consensys-Incorporated/teku
 [Web3Signer]: https://github.com/Consensys-Incorporated/web3signer
