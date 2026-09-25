@@ -25,6 +25,12 @@ Report vulnerabilities to [Security-Report@Consensys.com](mailto:Security-Report
 
 MetaMask code lives in the [MetaMask organization](https://github.com/MetaMask).
 
+## Looking for an archived project?
+
+Consensys moves repositories it no longer actively maintains to the
+[Consensys Incorporated Archive](https://github.com/Consensys-inc-archive) organization, where they are kept
+read-only.
+
 [Teku]: https://github.com/Consensys-Incorporated/teku
 [Web3Signer]: https://github.com/Consensys-Incorporated/web3signer
 [gnark]: https://github.com/Consensys-Incorporated/gnark
