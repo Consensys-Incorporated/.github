@@ -8,12 +8,12 @@ hosts the source code, documentation, and tooling that Consensys maintains. Lear
 
 | Project | Description | Documentation |
 | --- | --- | --- |
-| [Teku] | Ethereum consensus client | [docs.teku.consensys.io] |
-| [Web3Signer] | Remote signing service for Ethereum clients | [docs.web3signer.consensys.io] |
-| [gnark] and [gnark-crypto] | zk-SNARK framework and cryptographic primitives | [docs.gnark.consensys.io] |
-| [Zesu] | Stateless zkEVM execution client | [docs.zesu.consensys.io] |
-| [Besu] | Ethereum execution client, an LF Decentralized Trust project | [docs.besu-eth.org] |
+| [gnark] and [gnark-crypto] | zk-SNARK framework and cryptographic primitives | [docs.gnark.consensys.com] |
+| [Teku] | Ethereum consensus client | [docs.teku.consensys.com] |
 | [Linea] | Ethereum Layer 2 network. Its open-source stack, [Lineth], is an LF Decentralized Trust project | [docs.linea.build] |
+| [Besu] | Ethereum execution client, an LF Decentralized Trust project | [docs.besu-eth.org] |
+| [Zesu] | Stateless zkEVM execution client | [docs.zesu.consensys.com] |
+| [Web3Signer] | Remote signing service for Ethereum clients | [docs.web3signer.consensys.com] |
 
 ## Security
 
@@ -33,17 +33,17 @@ read-only. Truffle, Ganache and related projects are archived in the
 MetaMask code lives in the [MetaMask organization](https://github.com/MetaMask). The MetaMask team also
 maintains projects in the former [Consensys GitHub organization](https://github.com/Consensys).
 
-[Teku]: https://github.com/Consensys-Incorporated/teku
-[Web3Signer]: https://github.com/Consensys-Incorporated/web3signer
 [gnark]: https://github.com/Consensys-Incorporated/gnark
 [gnark-crypto]: https://github.com/Consensys-Incorporated/gnark-crypto
-[Zesu]: https://github.com/Consensys-Incorporated/zesu
-[Besu]: https://github.com/besu-eth/besu
+[Teku]: https://github.com/Consensys-Incorporated/teku
 [Linea]: https://linea.build
 [Lineth]: https://github.com/LFDT-Lineth
-[docs.teku.consensys.io]: https://docs.teku.consensys.io
-[docs.web3signer.consensys.io]: https://docs.web3signer.consensys.io
-[docs.gnark.consensys.io]: https://docs.gnark.consensys.io
-[docs.zesu.consensys.io]: https://docs.zesu.consensys.io
-[docs.besu-eth.org]: https://docs.besu-eth.org
+[Besu]: https://github.com/besu-eth/besu
+[Zesu]: https://github.com/Consensys-Incorporated/zesu
+[Web3Signer]: https://github.com/Consensys-Incorporated/web3signer
+[docs.gnark.consensys.com]: https://docs.gnark.consensys.com
+[docs.teku.consensys.com]: https://docs.teku.consensys.com
 [docs.linea.build]: https://docs.linea.build
+[docs.besu-eth.org]: https://docs.besu-eth.org
+[docs.zesu.consensys.com]: https://docs.zesu.consensys.com
+[docs.web3signer.consensys.com]: https://docs.web3signer.consensys.com
