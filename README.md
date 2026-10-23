@@ -31,6 +31,8 @@ replaces the default report form, and reporters see GitHub's built-in form if a 
   to stable landing pages rather than deep links.
 - Sign your commits and add a `Signed-off-by` trailer with `git commit -s`, as required across the organization.
 - Repository access is managed as code by the organization administrators, not through the GitHub UI.
+- GitHub Actions is disabled for this repository: it holds only files that GitHub reads, and nothing here
+  runs code.
 
 ## Security
 
