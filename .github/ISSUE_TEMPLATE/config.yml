@@ -1,0 +1,6 @@
+# Default for repositories in this organization that have no issue templates of their own.
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/Consensys-Incorporated/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Follow the security policy to report it privately.

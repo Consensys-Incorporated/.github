@@ -8,6 +8,7 @@ applies to every repository in the `Consensys-Incorporated` organization that do
 | File | Where it applies |
 | --- | --- |
 | [`SECURITY.md`](SECURITY.md) | Default security policy. Shown on the **Security** tab of every repository in the organization, public or private, that has no `SECURITY.md` of its own. |
+| [`.github/ISSUE_TEMPLATE/config.yml`](.github/ISSUE_TEMPLATE/config.yml) | Default issue chooser. Adds a link to private vulnerability reporting in every repository that has no issue templates of its own. |
 | [`profile/README.md`](profile/README.md) | Rendered on the [organization page](https://github.com/Consensys-Incorporated). |
 | [`CODEOWNERS`](CODEOWNERS) | Review routing for this repository only. |
 
@@ -17,6 +18,9 @@ A repository's own file always takes precedence over the defaults kept here. Git
 health file in the repository's `.github/` directory, then in its root, then in its `docs/` directory, and
 falls back to this repository only when none is found. `LICENSE` and `README` files are never inherited and
 must live in each repository.
+
+Issue templates are inherited as a set: a repository with any issue template or `config.yml` of its own in
+`.github/ISSUE_TEMPLATE/` uses none of the defaults.
 
 ## Making changes
 
