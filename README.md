@@ -8,6 +8,8 @@ applies to every repository in the `Consensys-Incorporated` organization that do
 | File | Where it applies |
 | --- | --- |
 | [`SECURITY.md`](SECURITY.md) | Default security policy. Shown on the **Security** tab of every repository in the organization, public or private, that has no `SECURITY.md` of its own. |
+| [`.github/ISSUE_TEMPLATE/config.yml`](.github/ISSUE_TEMPLATE/config.yml) | Default issue chooser. Adds a link to private vulnerability reporting in every repository that has no issue templates of its own. |
+| [`.github/VULNERABILITY_REPORT.yml`](.github/VULNERABILITY_REPORT.yml) | Default form for private vulnerability reports, used by public repositories that accept them and have no form of their own. |
 | [`profile/README.md`](profile/README.md) | Rendered on the [organization page](https://github.com/Consensys-Incorporated). |
 | [`CODEOWNERS`](CODEOWNERS) | Review routing for this repository only. |
 
@@ -18,6 +20,10 @@ health file in the repository's `.github/` directory, then in its root, then in 
 falls back to this repository only when none is found. `LICENSE` and `README` files are never inherited and
 must live in each repository.
 
+Issue templates are inherited as a set: a repository with any issue template or `config.yml` of its own in
+`.github/ISSUE_TEMPLATE/` uses none of the defaults. A repository's own `.github/VULNERABILITY_REPORT.yml`
+replaces the default report form, and reporters see GitHub's built-in form if a form is invalid.
+
 ## Making changes
 
 - Open a pull request. The code owners listed in [`CODEOWNERS`](CODEOWNERS) review every change.
@@ -25,6 +31,8 @@ must live in each repository.
   to stable landing pages rather than deep links.
 - Sign your commits and add a `Signed-off-by` trailer with `git commit -s`, as required across the organization.
 - Repository access is managed as code by the organization administrators, not through the GitHub UI.
+- GitHub Actions is disabled for this repository: it holds only files that GitHub reads, and nothing here
+  runs code.
 
 ## Security
 

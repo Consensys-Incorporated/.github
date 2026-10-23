@@ -32,12 +32,18 @@ Consensys will not pursue or support legal action against researchers who act in
 accordance with this policy. Acting in good faith means that you:
 
 - Only access, modify, or store data that is your own or that you have explicit permission to test with.
+- Do not use credentials, keys, or other secrets you find. Report them instead.
 - Avoid privacy violations, data destruction, and degradation or disruption of services.
+- Test against local networks, forks, or deployments you control. Do not exploit a vulnerability on mainnet
+  or a public testnet, and do not move, freeze, or destroy funds, or affect validators, that are not your own.
 - Do not use social engineering, phishing, or physical attacks.
 - Stop testing and report immediately if you encounter personal or otherwise sensitive data.
 
 ## Scope
 
+- The repositories in this organization are in scope, including their GitHub Actions workflows and other CI/CD
+  configuration, credentials or other secrets exposed in them, and the release artifacts and container images
+  built from them.
 - Report vulnerabilities in third-party dependencies to their maintainers.
 - MetaMask products are covered by the [MetaMask organization](https://github.com/MetaMask) and its security policy.
 - Repositories in the [Consensys Incorporated Archive](https://github.com/Consensys-inc-archive) organization are
