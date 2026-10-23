@@ -9,6 +9,7 @@ applies to every repository in the `Consensys-Incorporated` organization that do
 | --- | --- |
 | [`SECURITY.md`](SECURITY.md) | Default security policy. Shown on the **Security** tab of every repository in the organization, public or private, that has no `SECURITY.md` of its own. |
 | [`.github/ISSUE_TEMPLATE/config.yml`](.github/ISSUE_TEMPLATE/config.yml) | Default issue chooser. Adds a link to private vulnerability reporting in every repository that has no issue templates of its own. |
+| [`.github/VULNERABILITY_REPORT.yml`](.github/VULNERABILITY_REPORT.yml) | Default form for private vulnerability reports, used by public repositories that accept them and have no form of their own. |
 | [`profile/README.md`](profile/README.md) | Rendered on the [organization page](https://github.com/Consensys-Incorporated). |
 | [`CODEOWNERS`](CODEOWNERS) | Review routing for this repository only. |
 
@@ -20,7 +21,8 @@ falls back to this repository only when none is found. `LICENSE` and `README` fi
 must live in each repository.
 
 Issue templates are inherited as a set: a repository with any issue template or `config.yml` of its own in
-`.github/ISSUE_TEMPLATE/` uses none of the defaults.
+`.github/ISSUE_TEMPLATE/` uses none of the defaults. A repository's own `.github/VULNERABILITY_REPORT.yml`
+replaces the default report form, and reporters see GitHub's built-in form if a form is invalid.
 
 ## Making changes
 
