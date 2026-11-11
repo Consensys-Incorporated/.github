@@ -14,6 +14,7 @@ hosts the source code, documentation, and tooling that Consensys maintains. Lear
 | [Besu] | Ethereum execution client, an LF Decentralized Trust project | [docs.besu-eth.org] |
 | [Zesu] | Stateless zkEVM execution client | [docs.zesu.consensys.com] |
 | [Web3Signer] | Remote signing service for Ethereum clients | [docs.web3signer.consensys.com] |
+| [Ocap Kernel] | Object-capability runtime for running JavaScript in isolated sandboxes | [ocap-kernel/docs] |
 
 ## Security
 
@@ -41,9 +42,11 @@ maintains projects in the former [Consensys GitHub organization](https://github.
 [Besu]: https://github.com/besu-eth/besu
 [Zesu]: https://github.com/Consensys-Incorporated/zesu
 [Web3Signer]: https://github.com/Consensys-Incorporated/web3signer
+[Ocap Kernel]: https://github.com/Consensys-Incorporated/ocap-kernel
 [docs.gnark.consensys.com]: https://docs.gnark.consensys.com
 [docs.teku.consensys.com]: https://docs.teku.consensys.com
 [docs.linea.build]: https://docs.linea.build
 [docs.besu-eth.org]: https://docs.besu-eth.org
 [docs.zesu.consensys.com]: https://docs.zesu.consensys.com
 [docs.web3signer.consensys.com]: https://docs.web3signer.consensys.com
+[ocap-kernel/docs]: https://github.com/Consensys-Incorporated/ocap-kernel/tree/main/docs
